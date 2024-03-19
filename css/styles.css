@@ -511,13 +511,11 @@ p {
   position: absolute;
   top: 24px;
   right: 24px;
-  border-radius: 100%;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
   background-color: #e7e9fc;
-  stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
-  border: none;
-  align-items: center;
-  justify-content: center;
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .btn-close-icon {
@@ -575,14 +573,15 @@ p {
 }
 .modal-lable-wrap {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .modal-input:focus,
 .modal-input:hover + .modal-icon {
   fill: #4d5ae5;
 }
-
+.modal-field {
+  margin-bottom: 8px;
+}
 .modal-text {
   width: 100%;
   height: 120px;
@@ -601,4 +600,8 @@ p {
 .modal-text:focus,
 .modal-text:hover {
   border: 1px solid #4d5ae5;
+}
+
+.modal-field-com {
+  margin-bottom: 18px;
 }
