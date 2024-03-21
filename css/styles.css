@@ -44,6 +44,10 @@ p {
 .header-container {
   display: flex;
 }
+
+*,*:focus,*:hover{
+  outline:none;
+}
 /* header */
 .header {
   padding-top: 24px;
@@ -516,6 +520,9 @@ p {
   height: 24px;
   background-color: #e7e9fc;
   border-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-close-icon {
@@ -550,6 +557,10 @@ p {
   border-radius: 4px;
   padding-left: 38px;
 }
+
+
+
+
 .modal-input:hover,
 .modal-input:focus,
 .modal-input:active {
@@ -604,5 +615,5 @@ p {
 }
 
 .modal-field-com {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
